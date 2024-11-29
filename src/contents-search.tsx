@@ -115,7 +115,7 @@ export function SearchResults() {
 						}}>
 							<Icon className="h-32 w-32 [color]-$fill-color" style={iconStyles} name={name} />
 						</button>
-						<div className="flex justify-center align-center h-24">
+						<div className="flex justify-center align-center w-$grid-item-size h-24">
 							<styled.TypographySearchResult className="[color]-$soft-fill-color ellipsis [-webkit-user-select]-all [user-select]-all">
 								<Highlight indexes={indexes}>
 									{name}
